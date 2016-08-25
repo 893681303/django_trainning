@@ -1,0 +1,138 @@
+/*========= LAYOUT SECTION =======*/
+body {
+    background-color: #9c9f84;
+    margin: 0px;
+    font-family: Verdana, Georgia, serif;
+    font-size: 14px;
+
+}
+
+#header {
+    background-color: #5c755e;
+    margin: 10px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+#navbar ul {
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    background-color: #000;
+    border-radius: 5px;
+}
+#navbar ul li {
+    display: inline;
+    margin: 60px;
+    padding: 2em;
+
+}
+#navbar ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    padding: .2em 1em;
+    color: #fff;
+    background-color: #000;
+}
+#navbar ul li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+
+.sideright {
+    background-color: #e5e4d7;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 105%;
+    margin-top: 0px;
+    padding: 20px;
+    width: 260;
+    float: right;
+    clear: right;
+}
+
+.imagesidebar {
+    background-color: #e5e4d7;
+    margin: 10px;
+    border-radius: 5px;
+    margin-top: 0px;
+    width: 300;
+    float: right;
+    clear: right;
+    opacity: 1.0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.imagesidebar:hover {
+    opacity: 0.5;
+
+}
+
+.main {
+    background-color: #e5e4d7;
+    margin: 10px;
+    border-radius:5px;
+    padding: 20px;
+    font-size: 110%;
+    margin-right: 320px;
+
+}
+
+#footer {
+    background-color: #5c755e;
+    margin: 10px;
+    height: 90px;
+    border-radius: 5px;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    font-size: 90%;
+}
+#footer ul {
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+#footer ul li {
+    display: inline;
+
+}
+#footer ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    padding: .2em 1em;
+    color: #efe5d0;
+    background-color: #5c755e;
+}
+#footer ul li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/*========== HEADING SECTION =======*/
+h1 {
+    font-size: 120%;
+    color: red;
+}
+
+h2 {
+    font-size: 120%;
+    color: blue;
+}
+h3 {
+    font-size: 250%;
+    font-family: "Century Gothic", "Gill Sans", Arial;
+    color: #e5e4d7;
+    text-align: center;
+    margin: 0px;
+
+        position: relative;
+         top: 50%;
+         -webkit-transform: translateY(-50%);
+         -ms-transform: translateY(-50%);
+         transform: translateY(-50%);
+}
